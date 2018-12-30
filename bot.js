@@ -31,7 +31,7 @@ if (message.content.startsWith(PrEfix + 'st')) {
 
 
 client.on('message', message => {
-if(message.content.startsWith('c')) {
+if(message.content.startsWith('b')) {
 if(message.author.id !== '517409391570583574') return;
 var args = message.content.split(' ').slice(1).join(' ');
 message.channel.send(args);
